@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FamilyMan</string>
+    <string name="child_app_name">LearnBuddy</string>
+    <string name="future_sms_app_name">Message</string>
+</resources>
