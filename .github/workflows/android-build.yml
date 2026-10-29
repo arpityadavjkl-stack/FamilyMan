@@ -16,12 +16,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - name: Add build-only Firebase placeholder
-        run: |
-          mkdir -p app
-          cat > app/google-services.json <<'JSON'
-          {"project_info":{"project_number":"000000000000","project_id":"familyman-build-placeholder","storage_bucket":"familyman-build-placeholder.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:000000000000:android:com.familyguard","android_client_info":{"package_name":"com.familyguard"}},"api_key":[{"current_key":"dummy-api-key"}],"services":{}}],"configuration_version":"1"}
-          JSON
       - name: Build debug APK
         run: |
           chmod +x ./gradlew

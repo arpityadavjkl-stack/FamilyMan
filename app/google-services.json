@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "118008908170",
+    "project_id": "familyman-5139c",
+    "storage_bucket": "familyman-5139c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118008908170:android:440f182a44678eb3b06073",
+        "android_client_info": {
+          "package_name": "com.familyguard.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyFrAPoUMBaeMSPL97i8v-upZHVnHNukU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
