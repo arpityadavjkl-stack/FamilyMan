@@ -16,8 +16,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
       - name: Add build-only Firebase placeholder
         run: |
           mkdir -p app
