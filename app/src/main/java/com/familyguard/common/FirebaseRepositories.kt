@@ -7,6 +7,7 @@ import com.google.firebase.database.DatabaseReference
 import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.suspendCancellableCoroutine
 import java.security.SecureRandom
+import java.util.Locale
 import java.security.MessageDigest
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
